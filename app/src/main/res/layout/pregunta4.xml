@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    tools:context=".MainQuiz">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/a4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pregunta 4??"
+            android:textSize="30dp"
+            tools:layout_editor_absoluteX="-139dp"
+            tools:layout_editor_absoluteY="131dp" />
+
+        <Button
+            android:id="@+id/b4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Opcion a"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="381dp" />
+
+        <Button
+            android:id="@+id/c4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Opcion b"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="443dp" />
+
+        <Button
+            android:id="@+id/d4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Opcion c"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="506dp" />
+
+        <Button
+            android:id="@+id/sig4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Siguiente"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="652dp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
